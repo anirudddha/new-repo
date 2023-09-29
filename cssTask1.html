@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: lightblue;
+        }
+
+        td {
+            padding: 0; /* Remove padding to control spacing with divs */
+        }
+
+        td div {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            border-radius: 10px; /* Rounded corners for each box */
+            margin: 1px; /* 1px distance between each box */
+            background-color: lightblue; /* Background color for each box */
+        }
+
+        th {
+            background-color: lightblue;
+        }
+        th div {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            border-radius: 10px; /* Rounded corners for each box */
+            margin: 1px; /* 1px distance between each box */
+            background-color: lightblue; 
+        }
+    </style>
+</head>
+<body>
+    <h1><b>CssTask 1</b></h1>
+
+    <table>
+        <tr>
+            <th><div>FirstName</div></th>
+            <th><div>LastName</div></th>
+            <th><div>Age</div></th>
+        </tr>
+        <tr>
+            <td><div>Jill</div></td>
+            <td><div>Smith</div></td>
+            <td><div>50</div></td>
+        </tr>
+        <tr>
+            <td><div>Eve</div></td>
+            <td><div>Jackson</div></td>
+            <td><div>94</div></td>
+        </tr>
+        <tr>
+            <td><div>John</div></td>
+            <td><div>Doe</div></td>
+            <td><div>80</div></td>
+        </tr>
+    </table>
+</body>
+</html>
